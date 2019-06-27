@@ -1,0 +1,15 @@
+#!/bin/bash
+
+###########################################################################################################################
+#
+# NAME
+#   clean
+# DESCRIPTION
+#   A simple Bash shell script to clean the current working directory of temporary files created by the matrix script.
+# AUTHOR
+#   Written by Andrew Swaim
+#
+###########################################################################################################################
+
+find . -type f -name tmp\* -delete
+find . -type f -name datafile\* -delete
