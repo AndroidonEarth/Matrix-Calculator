@@ -1,5 +1,5 @@
 # Matrix-Calculator
-Simple Bash shell scripts to generate matrices and perform simple matrix calculations on them.
+Bash shell scripts to generate matrices and perform simple matrix calculations on them.
 
 # matrix script
 The main script in this file is called matrix, and the usage options are:
